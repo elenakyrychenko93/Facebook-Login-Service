@@ -1,4 +1,4 @@
-Пошаговое руководство процесса создания на руском - https://docs.google.com/document/d/1dG2R9r2mXaLL_llzUBcxNce7VcBNRRmYKsi-H977Nu0/edit?usp=sharing.
+Пошаговое руководство процесса создания на русcком - https://docs.google.com/document/d/1dG2R9r2mXaLL_llzUBcxNce7VcBNRRmYKsi-H977Nu0/edit?usp=sharing.
 
 Tutorial. Authorization via Facebook - https://docs.google.com/document/d/107lYbn0UXb6JgtvPlb7v1ZQ6J8pHjoOvUPIFgfZCyPE/edit?usp=sharing
 
