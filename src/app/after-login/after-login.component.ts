@@ -11,9 +11,11 @@ export class AfterLoginComponent implements OnInit {
   constructor(private loginService: LoginService) { }
 
   ngOnInit() {
+    // -----------------------check login status-------------------------------------
+   this.loginService.LoginFacebookStatus();
   }
 
-  logoutFacebook() {
+  outFacebook() {
     this.loginService.facebookLogout();
   }
 }

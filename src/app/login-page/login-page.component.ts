@@ -10,8 +10,7 @@ export class LoginPageComponent implements OnInit {
 
   constructor(private loginService: LoginService) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
   enterFacebook() {
     this.loginService.facebookLogin();

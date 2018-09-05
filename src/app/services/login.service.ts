@@ -17,11 +17,26 @@ export class LoginService {
     this.fb.init(initParams);
   }
 
+  // -----------------------check login status-------------------------------------
+  LoginFacebookStatus() {
+    this.fb.getLoginStatus().then((response) => {
+      if (response.status === 'connected') {
+        this.router.navigate(['/login']);
+        console.log('Check status. Logged in!');
+      } else {
+        this.router.navigate(['/']);
+        console.log('Check status. Logged out!');
+      }
+    });
+  }
+  // -----------------------check login status-------------------------------------
+
   facebookLogin() {
     this.fb.login()
       .then((response) => {
       if (response.status === 'connected') {
          this.router.navigate(['/login']);
+        console.log('Logged in through fb!');
       } else {
          console.log('User cancelled login or did not fully authorize.');
       }
@@ -29,9 +44,9 @@ export class LoginService {
   }
 
   facebookLogout() {
+    this.router.navigate(['/']);
     this.fb.logout().then(() => {
-      this.router.navigate(['/']);
-      console.log('Logged out!');
+      console.log('Logged out from fb!');
     });
   }
 }
