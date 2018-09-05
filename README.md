@@ -1,4 +1,8 @@
-Пошаговое руководство процесса создания - https://docs.google.com/document/d/1dG2R9r2mXaLL_llzUBcxNce7VcBNRRmYKsi-H977Nu0/edit#.
+Пошаговое руководство процесса создания на руском - https://docs.google.com/document/d/1dG2R9r2mXaLL_llzUBcxNce7VcBNRRmYKsi-H977Nu0/edit?usp=sharing.
+Tutorial. Authorization via Facebook - https://docs.google.com/document/d/107lYbn0UXb6JgtvPlb7v1ZQ6J8pHjoOvUPIFgfZCyPE/edit?usp=sharing
+
+Возможные вопросы, полезные ссылки, документация - https://docs.google.com/document/d/1yvkp0Fo3nCNT6ts7jIKvDJedGUNixVD7q1cP19QGXLc/edit?usp=sharing
+Documentation. Authorization via Facebook - https://docs.google.com/document/d/1rRPVxz4Ryy53cQbLezQ4m5RvesTnXLVF2rkSkH3qMvo/edit?usp=sharing 
 
 # FacebookLogin
 
